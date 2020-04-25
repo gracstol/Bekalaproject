@@ -1,0 +1,135 @@
+.about
+{
+    height: 100vh;
+}
+
+.about-us__article
+{
+    display: flex;
+}
+
+.about-us__article-first
+{
+    margin: 40px;
+    max-width: 50vw;
+}
+
+.about-us__article-header
+{
+    font-size: 35px;
+    color: #000;
+    text-align: center;
+}
+
+.article-headerN
+{
+   font-size: 18px;
+   color: rgb(223, 108, 32);
+}
+
+.article-headerO
+{
+    text-transform: uppercase;
+    color: rgb(223, 108, 32);
+    font-size: 50px;
+
+}
+
+.about-us__article1
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+.about-us__vertical-line1
+{
+    width: 2px;
+    height: 45vh;
+    background-color: rgb(223, 108, 32);
+    margin: 20px;
+}
+
+.about-us__article-images
+{
+    padding: 5px;
+    margin-top: 65px;
+    text-align: center;
+}
+
+.about-us__article-image1, 
+.about-us__article-image2
+{
+    transition: 0.5s ease-in-out;
+}
+
+.about-us__article-image1:hover,
+.about-us__article-image2:hover
+{
+   transform: scale(1.2);
+   box-shadow: 0px 0px 2px 2px rgb(223, 108, 32);
+}
+
+/* Offer section */
+
+.about-us__vertical-line2
+{
+    
+    height: 2px;
+    width: 80vw;
+    background: rgb(223, 108, 32);
+}
+
+.about-us__offer
+{
+    display: flex;
+}
+
+.about-us__offer-images
+{
+    margin-top: 60px;
+    text-align: center;
+    max-width: 50vw;
+}
+
+.about-us__offer-image1, 
+.about-us__offer-image2
+{
+    transition: 0.5s ease-in-out;
+}
+
+.about-us__offer-image1:hover,
+.about-us__offer-image2:hover
+{
+   transform: scale(1.2);
+   box-shadow: 0px 0px 2px 2px rgb(223, 108, 32);
+}
+
+
+.about-us__offer-sentence
+{
+    text-align: center;
+}
+
+.about-us__offer-header
+{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: rgb(223, 108, 32);
+}
+
+.about-us__offer-list
+{
+    font-size: 22px;
+}
+
+.about-us__offer-item
+{
+    list-style: circle;
+}
+
+.about-us__offer-sentence2
+{
+    font-size: 22px;
+}
+

@@ -1,0 +1,96 @@
+.main-banner{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  
+}
+  
+.main-banner::before
+{
+      position: absolute;
+      content: "";
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background: url("/pictures/picture5.jpg");
+      background-size: cover;
+      background-position: center;
+      z-index: -3;
+  
+}
+  
+.main-banner::after{
+      position: absolute;
+      content: "";
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background: rgb(38, 38, 38);
+      opacity: 0.9;
+      background-blend-mode: screen;
+      background-size: cover;
+      background-position: center;
+      z-index: -2;
+    }
+
+.main-banner__motto
+{
+    font-size: 2.5em;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+
+.main-banner__motto-P
+{
+    text-transform: uppercase;
+    color: rgb(223, 108, 32);
+    letter-spacing: 3px;
+}
+
+.main-banner__motto-R
+{
+    background-color: rgb(223, 108, 32);
+}
+
+.main-banner__container-first
+{
+    text-align: center;
+}
+
+.main-banner__lower-motto
+{
+    padding-top: 30px;
+}
+
+.main-banner__button
+{
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-radius: 30px;
+    transition: 0.5s;
+    transition-timing-function: ease;
+}
+
+.main-banner__button:hover
+{
+    border: 2px solid white;
+    box-shadow: inset 2px 2px 10px 1px rgb(223, 108, 32);
+}
+  

@@ -1,0 +1,61 @@
+.realizations
+{
+    background: #333;
+    height: 100vh;
+    padding-top: 140px;
+    display: flex;
+}
+
+.realizations-portfolio__header
+{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.realizations-portfolio__sentence
+{
+    padding-top: 200px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+
+.realizations-portfolio__sentence1
+{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.realizations-portfolio__sentence2
+{
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgb(223, 108, 32);
+    
+}
+
+.realizations-images__left
+{
+    padding: 10px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.realizations-images__left-link
+{
+    padding: 30px;
+}
+
+.realizations-images__right
+{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.realizations-images__right-link
+{
+
+}
