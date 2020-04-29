@@ -1,0 +1,80 @@
+.footer
+{
+    height: 50vh;
+    display: flex;
+    margin: 40px;
+}
+
+.footer-container
+{
+    margin: auto;
+    text-align: center;
+}
+
+.footer-header
+{
+    font-size: 38px;
+}
+
+.footer-information
+{
+    font-size: 22px;
+ 
+}
+
+.map
+{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.map1
+{
+    border: 2px solid rgb(223, 108, 32);
+    height: 40vh;
+    width: 50vw;
+}
+
+.footer-finish
+{
+    padding: 20px;
+    background-color: #333;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.contact-phone,
+.contact-mail,
+.contact-placeholder,
+.contact-fanpage
+{
+    text-decoration: none;
+    color: #000;
+}
+    
+a:hover
+{
+    border-bottom: rgb(223, 108, 32);
+}
+
+.contact-phone__icon
+{
+    width: 20px;
+}
+
+.contact-mail__icon
+{
+    width: 20px;
+}
+
+.contact-placeholder__icon
+{
+    width: 20px;
+}
+
+.contact-fanpage__icon
+{
+    width: 40px;
+}
