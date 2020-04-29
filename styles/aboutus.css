@@ -1,4 +1,5 @@
-.about
+git remote add origin https://github.com/gracstol/Bekalaproject.git
+git push -u origin master.about
 {
     height: 100vh;
 }
