@@ -73,3 +73,8 @@
       left: 0;
       right: 0;
 }
+
+.main-navigation__triangle
+{
+    color: rgb(223, 108, 32);
+}

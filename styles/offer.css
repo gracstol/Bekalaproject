@@ -1,0 +1,33 @@
+.offer-section
+{
+    height: 40vh;
+    display: flex;
+    margin: 10px;
+}
+
+.offer-section__senteces
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.offer-section__header
+{
+    font-size: 34px;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.offer-section__list
+{
+    font-size: 24px;
+    list-style: none;
+}
+
+.offer-section__sentence
+{
+    font-size: 24px;
+}
+
