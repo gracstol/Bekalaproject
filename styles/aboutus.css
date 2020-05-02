@@ -1,31 +1,43 @@
-git remote add origin https://github.com/gracstol/Bekalaproject.git
-git push -u origin master.about
+.main-container
 {
     height: 100vh;
+    background-color: rgb(230, 230, 230);
+    background-position: center;
+    background-size: cover;
 }
 
-.about-us__article
+.about-us__section
 {
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
     display: flex;
+    align-content: center;
 }
 
-.about-us__article-first
+/* first paragraph */
+.about-us__section-paragraph
 {
-    margin: 40px;
-    max-width: 50vw;
+    font-size: 18px;
+    max-width: 45vw;
 }
 
-.about-us__article-header
+.about-us__section-header
 {
     font-size: 35px;
-    color: #000;
     text-align: center;
+    color: #fff;
 }
 
-.article-headerN
+.about-us__header-first-part
 {
-   font-size: 18px;
-   color: rgb(223, 108, 32);
+
+}
+
+.article-headerM
+{
+    font-size: 18px;
+    color: rgb(223, 108, 32);
 }
 
 .article-headerO
@@ -33,104 +45,37 @@ git push -u origin master.about
     text-transform: uppercase;
     color: rgb(223, 108, 32);
     font-size: 50px;
+}
+
+.about-us__section-article1
+{
 
 }
 
-.about-us__article1
+.about-us__section-article2
+{
+
+}
+
+/* vertical-line between content */
+.about-us__section-line
 {
     text-align: center;
-    font-size: 20px;
+    justify-content: center;
+    align-content: center;
+    width: 20vw;
 }
 
-.about-us__vertical-line1
+.about-us__vertical-line
 {
     width: 2px;
-    height: 45vh;
+    height: 65vh;
     background-color: rgb(223, 108, 32);
-    margin: 20px;
-}
-
-.about-us__article-images
-{
-    padding: 5px;
-    margin-top: 65px;
-    text-align: center;
-}
-
-.about-us__article-image1, 
-.about-us__article-image2
-{
-    transition: 0.5s ease-in-out;
-}
-
-.about-us__article-image1:hover,
-.about-us__article-image2:hover
-{
-   transform: scale(1.2);
-   box-shadow: 0px 0px 2px 2px rgb(223, 108, 32);
-}
-
-/* Offer section */
-
-.about-us__vertical-line2
-{
     
-    height: 2px;
-    width: 80vw;
-    background: rgb(223, 108, 32);
 }
 
-.about-us__offer
+/* second content */
+.about-us__section-images
 {
-    display: flex;
+
 }
-
-.about-us__offer-images
-{
-    margin-top: 60px;
-    text-align: center;
-    max-width: 50vw;
-}
-
-.about-us__offer-image1, 
-.about-us__offer-image2
-{
-    transition: 0.5s ease-in-out;
-}
-
-.about-us__offer-image1:hover,
-.about-us__offer-image2:hover
-{
-   transform: scale(1.2);
-   box-shadow: 0px 0px 2px 2px rgb(223, 108, 32);
-}
-
-
-.about-us__offer-sentence
-{
-    text-align: center;
-}
-
-.about-us__offer-header
-{
-    font-size: 30px;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-    color: rgb(223, 108, 32);
-}
-
-.about-us__offer-list
-{
-    font-size: 22px;
-}
-
-.about-us__offer-item
-{
-    list-style: circle;
-}
-
-.about-us__offer-sentence2
-{
-    font-size: 22px;
-}
-
