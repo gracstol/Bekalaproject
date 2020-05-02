@@ -16,7 +16,7 @@
       right: 0;
       top: 0;
       bottom: 0;
-      background: url("pictures/picture5.jpg");
+      background: url("/picture5.jpg");
       background-size: cover;
       background-position: center;
       z-index: -3;

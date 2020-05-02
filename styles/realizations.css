@@ -1,0 +1,42 @@
+.realizations
+{
+    height: 100vh;
+    background-image: url("/pictures/backrealizations.png");
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: inline block;
+}
+
+.realization-section__header
+{
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.realization-section__header-style
+{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    
+}
+
+.realization-section__first
+{
+    display: flex;
+}
+
+.realization-section__first-paragraph
+{
+    
+    background: rgb(223, 108, 32);
+    width: 20vw;
+    height: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
