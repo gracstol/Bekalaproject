@@ -59,7 +59,7 @@
     background: linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-    ), url("pictures/porecze1.jpg");
+    ), url("/pictures/porecze1.jpg");
     width: 350px;
     height: 150px;
     position: relative;
@@ -73,7 +73,7 @@
     background: linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-    ), url("pictures/servogrodzenie.jpg");
+    ), url("/pictures/servogrodzenie.jpg");
     width: 350px;
     height: 150px;
     position: relative;
@@ -87,7 +87,7 @@
     background: linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-    ), url("pictures/servschody.jpg");
+    ), url("/pictures/servschody.jpg");
     width: 350px;
     height: 150px;
     position: relative;
@@ -141,7 +141,7 @@
     background: linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-    ), url("pictures/servzadaszenia.jpg");
+    ), url("/pictures/servzadaszenia.jpg");
     width: 350px;
     height: 150px;
     position: relative;
@@ -155,7 +155,7 @@
     background: linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-    ), url("pictures/servlawka.jpg");
+    ), url("/pictures/servlawka.jpg");
     width: 350px;
     height: 150px;
     position: relative;
@@ -169,7 +169,7 @@
     background: linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-    ), url("pictures/servprojekt.jpg");
+    ), url("/pictures/servprojekt.jpg");
     width: 350px;
     height: 150px;
     position: relative;
