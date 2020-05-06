@@ -2,6 +2,7 @@
 {
     height: 50vh;
     display: flex;
+    background: gray;
     margin: 40px;
 }
 
@@ -27,6 +28,7 @@
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
+    justify-content: center;
 }
 
 .map1

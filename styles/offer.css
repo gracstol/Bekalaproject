@@ -1,32 +1,186 @@
-.offer-section
+.offer-container
 {
-    height: 40vh;
-    display: flex;
+    height: 50vh;
+    margin-bottom: 20px;
 }
 
-.offer-section__senteces
+
+.offer-section__sentences
 {
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
 }
 
 .offer-section__header
 {
-    font-size: 34px;
+    font-size: 40px;
     text-transform: uppercase;
-    color: gray;
-}
-
-.offer-section__list
-{
-    font-size: 24px;
-    list-style: none;
 }
 
 .offer-section__sentence
 {
-    font-size: 24px;
+    font-size: 22px;
+}
+
+.offer-section__services
+{
+   align-items: center;
+   text-align: center;
+}
+
+/* first grid */
+
+.offer-section__grid-first
+{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    column-gap: 50px;
+    padding: 10px;
+
+}
+
+.offer-section__first-item-overlay
+{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), url("/pictures/servbalustrada.jpg");
+    width: 350px;
+    height: 150px;
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 0 0 4px 3px rgb(223, 108, 32);
+    transition: all 0.5s ease-in-out;
+}
+
+.offer-section__second-item-overlay
+{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), url("/pictures/porecze1.jpg");
+    width: 350px;
+    height: 150px;
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 0 0 4px 3px rgb(223, 108, 32);
+    transition: all 0.5s ease-in-out;
+}
+
+.offer-section__third-item-overlay
+{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), url("/pictures/servogrodzenie.jpg");
+    width: 350px;
+    height: 150px;
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 0 0 4px 3px rgb(223, 108, 32);
+    transition: all 0.5s ease-in-out;
+}
+
+.offer-section__fourth-item-overlay
+{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), url("/pictures/servschody.jpg");
+    width: 350px;
+    height: 150px;
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 0 0 4px 3px rgb(223, 108, 32);
+    transition: all 0.5s ease-in-out;
+  }
+
+.offer-section__first-item-overlay:hover,
+.offer-section__second-item-overlay:hover,
+.offer-section__third-item-overlay:hover,
+.offer-section__fourth-item-overlay:hover
+{
+    transform: scale(1.05);
+}
+
+
+.offer-section__first-item-overlay .offer-section__picture-text,
+.offer-section__second-item-overlay .offer-section__picture-text,
+.offer-section__third-item-overlay .offer-section__picture-text,
+.offer-section__fourth-item-overlay .offer-section__picture-text,
+.offer-section__fifth-item-overlay .offer-section__picture-text,
+.offer-section__sixth-item-overlay .offer-section__picture-text,
+.offer-section__seventh-item-overlay .offer-section__picture-text
+{
+    
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Second grid services */
+
+.offer-section__grid-second
+{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    column-gap: 50px;
+    padding: 10px;
+}
+
+.offer-section__fifth-item-overlay
+{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), url("/pictures/servzadaszenia.jpg");
+    width: 350px;
+    height: 150px;
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 0 0 4px 3px rgb(223, 108, 32);
+    transition: all 0.5s ease-in-out;
+}
+
+.offer-section__sixth-item-overlay
+{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), url("/pictures/servlawka.jpg");
+    width: 350px;
+    height: 150px;
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 0 0 4px 3px rgb(223, 108, 32);
+    transition: all 0.5s ease-in-out;
+}
+
+.offer-section__seventh-item-overlay
+{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), url("/pictures/servprojekt.jpg");
+    width: 350px;
+    height: 150px;
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 0 0 4px 3px rgb(223, 108, 32);
+    transition: all 0.5s ease-in-out;
+}
+.offer-section__fifth-item-overlay:hover,
+.offer-section__sixth-item-overlay:hover,
+.offer-section__seventh-item-overlay:hover
+{
+    transform: scale(1.05);
 }
 
