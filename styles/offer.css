@@ -223,11 +223,3 @@
 {
     transform: scale(1.05);
 }
-
-.first-class
-{
-  height: 20vh;
-  background-image: url(/pictures/pic4.jpg);
-  background-position: center;
-  background-size: cover;
-}
