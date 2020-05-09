@@ -4,6 +4,14 @@
     margin-bottom: 20px;
 }
 
+@media(max-width:767px)
+{
+  .offer-container
+  {
+    height: 165vh;
+    font-size: 20px;
+  }
+}
 
 .offer-section__sentences
 {
@@ -16,9 +24,26 @@
     text-transform: uppercase;
 }
 
+@media(max-width:767px)
+{
+  .offer-section__header
+  {
+    font-size: 30px;
+  }
+}
+
 .offer-section__sentence
 {
     font-size: 22px;
+}
+
+@media(max-width:767px)
+{
+  .offer-section__sentence
+  {
+    font-size: 18px;
+    padding: 20px;
+  }
 }
 
 .offer-section__services
@@ -37,7 +62,14 @@
     grid-template-columns: 20vw 20vw 20vw 20vw;
     column-gap: 50px;
     padding: 10px;
+}
 
+@media(max-width:767px)
+{
+  .offer-section__grid-first
+  {
+    display: inline-block;
+  }
 }
 
 .offer-section__first-item-overlay
@@ -134,6 +166,14 @@
     grid-template-columns: 20vw 20vw 20vw;
     column-gap: 50px;
     padding: 10px;
+}
+
+@media(max-width:767px)
+{
+  .offer-section__grid-second
+  {
+    display: inline-block;
+  }
 }
 
 .offer-section__fifth-item-overlay

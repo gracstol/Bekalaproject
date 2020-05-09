@@ -16,6 +16,14 @@
     align-content: center;
 }
 
+@media(max-width:767px)
+{
+    .main-container
+    {
+        height: 120vh;
+    }
+}
+
 /* first paragraph */
 .about-us__section-paragraph
 {
@@ -24,6 +32,16 @@
     margin: 0 auto 16px auto 20px;
     text-align: center;
     align-items: center;
+}
+
+@media(max-width:767px)
+{
+    .about-us__section-paragraph
+    {
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
 }
 
 .about-us__section-header
@@ -40,6 +58,14 @@
     font-size: 34px;
 }
 
+@media(max-width:767px)
+{
+    .about-us__header-first-part
+    {
+        font-size: 26px;
+    }
+}
+
 .article-headerM
 {
     font-size: 18px;
@@ -51,6 +77,14 @@
     text-transform: uppercase;
     color: rgb(223, 108, 32);
     font-size: 60px;
+}
+
+@media(max-width:767px)
+{
+    .article-headerO
+    {
+        font-size: 30px;
+    }
 }
 
 .about-us__section-article1
@@ -78,7 +112,14 @@
     width: 2px;
     height: 40vh;
     background-color: rgb(223, 108, 32);
-    
+}
+
+@media(max-width:767px)
+{
+    .about-us__section-line
+    {
+        display: none;
+    }
 }
 
 /* second content */
@@ -97,17 +138,41 @@
     height: 214px;
 }
 
-.vertical-line__between
+@media(max-width:767px)
+{
+    .about-us__picture
+    {
+        display: none;
+    }
+}
+.vertical-line__between1,
+.vertical-line__between2
 { 
-    
+    justify-content: center;
+    text-align: center;
+    margin: auto;
 }
 
-.vertical-line__between-style
+.vertical-line__between-style1,
+.vertical-line__between-style2
 {
     width: 75vw;
     text-align: center;
     height: 2px;
     background-color: rgb(223, 108, 32);
+    margin: 0 auto 0 auto;
+}
+
+@media(max-width:767px)
+{
+    .vertical-line__between-style1
+    {
+        display: none;
+    }
+    .vertical-line__between-style2
+    {
+        margin-top: 10px;
+    }
 }
 
 /* Image between about-us and offer sections */
@@ -115,10 +180,18 @@
 .image-between__about-offer
 {
     height: 30vh;
-    background-image: url("/schody4.jpg");
+    background-image: url("/pictures/schody4.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin-bottom: 16px;
+}
+
+@media(max-width:767px)
+{
+    .image-between__about-offer
+    {
+        display: none;
+    }
 }
