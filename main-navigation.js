@@ -1,11 +1,11 @@
 (() => {
     const button = document.querySelector(".js-main-navigation__mobile-button");
-    const menu = document.querySelector(".js-main-navigation__menu")
+    const list = document.querySelector(".js-main-navigation__list")
 
     const toggleClass = () => {
-        menu.classList.toggle("main-navigation__menu--open");
+        list.classList.toggle("main-navigation__list--open");
     };
 
     button.addEventListener("click", toggleClass);
-    menu.addEventListener("click", toggleClass);
+    list.addEventListener("click", toggleClass);
 })();

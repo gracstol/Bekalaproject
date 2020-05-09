@@ -67,7 +67,7 @@
 
 @media(max-width:767px)
 {
-    .main-navigation__list--opem
+    .main-navigation__list--open
     {
        opacity: 1;
        pointer-events: unset;
