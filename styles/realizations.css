@@ -129,34 +129,3 @@
     opacity: 1;
     background-color: rgb(255, 128, 0);
 }
-
-
-
-
-
-/* ODSTEP */ 
-
-.realizations-item2
-{
-    width: 350px;
-    height: 300px;
-    background-image: url("/pictures/");
-    border-radius: 5%;
-}
-
-.realizations-item3
-{
-    width: 350px;
-    height: 300px;
-    background-image: url("/pictures/realbal.jpg");
-    border-radius: 5%;
-}
-
-.realizations-item4
-{
-    width: 350px;
-    height: 300px;
-    background-image: url("/pictures/realbal.jpg");
-    border-radius: 5%;
-}
-
