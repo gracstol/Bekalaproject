@@ -5,6 +5,7 @@
     background-position: center;
     background-size: cover;
     padding-left: 50px;
+    font-family: 'Lato', sans-serif;
 }
 
 .about-us__section
@@ -176,7 +177,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 }
 
 @media(max-width:767px)

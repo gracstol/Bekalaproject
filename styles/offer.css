@@ -1,6 +1,6 @@
 .offer-container
 {
-    height: 50vh;
+    height: 54vh;
     margin-bottom: 20px;
 }
 
@@ -134,6 +134,7 @@
 .offer-section__fourth-item-overlay:hover
 {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 

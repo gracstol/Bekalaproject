@@ -1,6 +1,8 @@
+/* Special folder for balustrady.html file  */
+
 .realizations
 {
-    height: 60vh;
+    height: 140vh;
     background-image: url("../pictures/backrealizations.png");
     padding: 20px;
     text-align: center;
@@ -13,7 +15,7 @@
 {
     .realizations
     {
-        height: 180vh;
+        height: 440vh;
         display: inline-block;
     }
 }
@@ -128,5 +130,27 @@
 {
     opacity: 1;
     background-color: rgb(255, 128, 0);
-    cursor: pointer;
+}
+
+
+/* Portfolio section */
+
+.realizations-services__header
+{   
+    font-size: 50px;
+}
+
+.realizations-services
+{
+    padding: px;
+}
+
+.realizations-services__image
+{
+    width: 350px;
+    height: 175px;
+    margin: 6px;
+    border: 2px solid #333;
+    background-size: cover;
+    background-position: center;
 }
