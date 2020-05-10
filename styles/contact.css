@@ -67,14 +67,6 @@
     justify-content: center;
 }
 
-@media(max-width:767px)
-{
-    .map
-    {
-
-    }
-}
-
 .map1
 {
     border: 2px solid rgb(223, 108, 32);
