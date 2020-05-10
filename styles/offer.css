@@ -2,6 +2,7 @@
 {
     height: 54vh;
     margin-bottom: 20px;
+    scroll-margin-top: 162px;
 }
 
 @media(max-width:767px)
