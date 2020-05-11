@@ -16,15 +16,6 @@
     display: flex;
     align-content: center;
     scroll-margin-top: 100px;
-
-}
-
-@media(max-width:767px)
-{
-    .main-container
-    {
-        height: 120vh;
-    }
 }
 
 /* first paragraph */
@@ -35,16 +26,6 @@
     margin: 0 auto 16px auto 20px;
     text-align: center;
     align-items: center;
-}
-
-@media(max-width:767px)
-{
-    .about-us__section-paragraph
-    {
-        justify-content: center;
-        text-align: center;
-        margin: auto;
-    }
 }
 
 .about-us__section-header
@@ -61,14 +42,6 @@
     font-size: 34px;
 }
 
-@media(max-width:767px)
-{
-    .about-us__header-first-part
-    {
-        font-size: 26px;
-    }
-}
-
 .article-headerM
 {
     font-size: 18px;
@@ -81,15 +54,6 @@
     color: rgb(223, 108, 32);
     font-size: 60px;
 }
-
-@media(max-width:767px)
-{
-    .article-headerO
-    {
-        font-size: 30px;
-    }
-}
-
 
 /* vertical-line between content */
 .about-us__section-line
@@ -108,14 +72,6 @@
     background-color: rgb(223, 108, 32);
 }
 
-@media(max-width:767px)
-{
-    .about-us__section-line
-    {
-        display: none;
-    }
-}
-
 /* second content */
 .about-us__section-images
 {
@@ -132,13 +88,6 @@
     height: 214px;
 }
 
-@media(max-width:767px)
-{
-    .about-us__picture
-    {
-        display: none;
-    }
-}
 .vertical-line__between1,
 .vertical-line__between2
 { 
@@ -157,18 +106,6 @@
     margin: 0 auto 0 auto;
 }
 
-@media(max-width:767px)
-{
-    .vertical-line__between-style1
-    {
-        display: none;
-    }
-    .vertical-line__between-style2
-    {
-        margin-top: 10px;
-    }
-}
-
 /* Image between about-us and offer sections */
 
 .image-between__about-offer
@@ -182,10 +119,57 @@
     margin-bottom: 20px;
 }
 
+/* Media section */
+
 @media(max-width:767px)
 {
+    .main-container
+    {
+        height: 120vh;
+    }
+
+    .about-us__section-paragraph
+    {
+        margin: auto;
+    }
+
+    .about-us__header-first-part
+    {
+        font-size: 26px;
+    }
+
+    .article-headerO
+    {
+        font-size: 30px;
+    }
+
+    .about-us__section-line
+    {
+        display: none;
+    }
+
+    .about-us__picture
+    {
+        display: none;
+    }
+
+    .vertical-line__between-style1
+    {
+        display: none;
+    }
+
+    .vertical-line__between-style2
+    {
+        margin-top: 10px;
+    }
+
     .image-between__about-offer
     {
         display: none;
+    }
+
+    .about-us__section
+    {
+        scroll-margin-top: 72px;
     }
 }

@@ -42,8 +42,21 @@
 {
     .main-banner
     {
+    width: 100vw;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    }
+}
+
+@media(max-width:1199px)
+{
+    .main-banner
+    {
     width: 99vw;
-    min-height: 100vh;
+    min-height: 92vh;
     display: flex;
     align-items: center;
     justify-content: center;

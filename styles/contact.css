@@ -13,6 +13,7 @@
         margin: auto;
         text-align: center;
         justify-content: center;
+        scroll-margin-top: 70px;
     }
 }
 

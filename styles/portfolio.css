@@ -16,8 +16,9 @@
 {
     .realizations
     {
-        height: 440vh;
+        height: 500vh;
         display: inline-block;
+        scroll-margin-top: 68px;
     }
 }
 

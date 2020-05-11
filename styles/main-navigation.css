@@ -18,15 +18,6 @@
     margin-left: 20px;
 }
 
-@media(max-width:767)
-{
-    .main-navigation__logo-image
-    {
-        left: 0;
-        width: 200px;
-    }   
-}
-
 .main-navigation__inner
 {
     display: flex;
@@ -47,35 +38,6 @@
     transition-property: opacity, transform;
 }
 
-@media(max-width:767px)
-{
-    .main-navigation__list
-    {
-        position: fixed;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        background: #333;
-        flex-direction: column;
-        justify-content: center;
-        text-align: left;
-        opacity: 0;
-        pointer-events: none;
-        transform: translateY(-50%);
-    }   
-}
-
-@media(max-width:767px)
-{
-    .main-navigation__list--open
-    {
-       opacity: 1;
-       pointer-events: unset;
-       transform: unset;
-    }   
-}
-
 .main-navigation__list-item
 {
     margin-left: 50px;
@@ -90,14 +52,6 @@
     text-decoration: none;
     font-size: 22px;
     position: relative;
-}
-
-@media(max-width:767px)
-{
-    .main-navigation__list-link
-    {
-        font-size: 22px;
-    }
 }
 
 .main-navigation__list-link::before
@@ -133,8 +87,43 @@
     display: none;
 }
 
+/*  Mobile section */
+
 @media(max-width:767px)
 {
+    .main-navigation__logo-image
+    {
+        width: 220px;
+    }  
+
+    .main-navigation__list
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 70%;
+        background: #222;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-50%);
+    }   
+
+    .main-navigation__list--open
+    {
+       opacity: 0.9;
+       pointer-events: unset;
+       transform: unset;
+    }   
+
+    .main-navigation__list-link
+    {
+        font-size: 22px;
+    }
+
     .main-navigation__mobile-button
     {
         display: unset;
@@ -142,13 +131,11 @@
         border: none;
         padding: 0;
     }
-}
 
-@media(max-width:767px)
-{
     .main-navigation__mobile-button-image
     {
         width: 30px;
         display: block;
     }
+
 }

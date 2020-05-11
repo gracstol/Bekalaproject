@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    scroll-margin-top: 100px;
+    scroll-margin-top: 98px;
 }
 
 @media(max-width:767px)
@@ -16,9 +16,9 @@
     {
         height: 180vh;
         display: inline-block;
+        scroll-margin-top: 70px;
     }
 }
-
 
 .realizations-header
 {
