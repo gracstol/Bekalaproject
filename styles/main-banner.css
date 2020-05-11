@@ -93,6 +93,8 @@
 .main-banner__motto-R
 {
     background-color: rgb(223, 108, 32);
+    padding: 0 5px 5px 5px;
+    border-radius: 3%;
 }
 
 .main-banner__container-first
