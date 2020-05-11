@@ -34,6 +34,14 @@
   }
 }
 
+@media(max-width:1199px)
+{
+  .offer-section__header
+  {
+    font-size: 34px;
+  }
+}
+
 .offer-section__sentence
 {
     font-size: 22px;
@@ -45,6 +53,14 @@
   {
     font-size: 18px;
     padding: 20px;
+  }
+}
+
+@media(max-width:1199px)
+{
+  .offer-section__sentence
+  {
+    font-size: 20px;
   }
 }
 
@@ -88,6 +104,15 @@
     transition: all 0.5s ease-in-out;
 }
 
+@media(max-width:1199px)
+{
+    .offer-section__first-item-overlay
+    {
+      width: 260px;
+      height: 119px;
+    }
+}
+
 .offer-section__second-item-overlay
 {
     background: linear-gradient(
@@ -100,6 +125,15 @@
     border-radius: 5%;
     box-shadow: 0 0 4px 3px rgb(223, 108, 32);
     transition: all 0.5s ease-in-out;
+}
+
+@media(max-width:1199px)
+{
+    .offer-section__second-item-overlay
+    {
+      width: 260px;
+      height: 119px;
+    }
 }
 
 .offer-section__third-item-overlay
@@ -116,6 +150,15 @@
     transition: all 0.5s ease-in-out;
 }
 
+@media(max-width:1199px)
+{
+    .offer-section__third-item-overlay
+    {
+      width: 260px;
+      height: 119px;
+    }
+}
+
 .offer-section__fourth-item-overlay
 {
     background: linear-gradient(
@@ -129,6 +172,15 @@
     box-shadow: 0 0 4px 3px rgb(223, 108, 32);
     transition: all 0.5s ease-in-out;
   }
+
+  @media(max-width:1199px)
+{
+    .offer-section__fourth-item-overlay
+    {
+      width: 260px;
+      height: 119px;
+    }
+}
 
 .offer-section__first-item-overlay:hover,
 .offer-section__second-item-overlay:hover,
@@ -193,6 +245,15 @@
     transition: all 0.5s ease-in-out;
 }
 
+@media(max-width:1199px)
+{
+    .offer-section__fifth-item-overlay
+    {
+      width: 260px;
+      height: 119px;
+    }
+}
+
 .offer-section__sixth-item-overlay
 {
     background: linear-gradient(
@@ -205,6 +266,15 @@
     border-radius: 5%;
     box-shadow: 0 0 4px 3px rgb(223, 108, 32);
     transition: all 0.5s ease-in-out;
+}
+
+@media(max-width:1199px)
+{
+    .offer-section__sixth-item-overlay
+    {
+      width: 260px;
+      height: 119px;
+    }
 }
 
 .offer-section__seventh-item-overlay
@@ -220,6 +290,16 @@
     box-shadow: 0 0 4px 3px rgb(223, 108, 32);
     transition: all 0.5s ease-in-out;
 }
+
+@media(max-width:1199px)
+{
+    .offer-section__seventh-item-overlay
+    {
+      width: 260px;
+      height: 119px;
+    }
+}
+
 .offer-section__fifth-item-overlay:hover,
 .offer-section__sixth-item-overlay:hover,
 .offer-section__seventh-item-overlay:hover

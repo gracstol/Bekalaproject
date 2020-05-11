@@ -139,3 +139,16 @@
     }
 
 }
+
+@media(max-width:1199px)
+{
+    .main-navigation__logo-image
+    {
+        width: 220px;
+    }
+
+    .main-navigation__list-link
+    {
+        font-size: 18px;
+    }
+}

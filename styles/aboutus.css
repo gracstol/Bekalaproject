@@ -173,3 +173,32 @@
         scroll-margin-top: 72px;
     }
 }
+
+@media(max-width:1199px)
+{
+    .about-us__section-paragraph
+    {
+        font-size: 16px;
+    }
+
+    .about-us__section-header
+    {
+        font-size: 28px;
+    }
+
+    .article-headerM
+    {
+        font-size: 14px;
+    }
+
+    .article-headerO
+    {
+        font-size: 46px;
+    }
+    
+    .about-us__picture
+    {
+        width: 350px;
+        height: 150px;
+    }
+}
