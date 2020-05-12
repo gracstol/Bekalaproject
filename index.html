@@ -29,6 +29,8 @@
     <link rel="stylesheet" href="styles/realizations.css">
     <!-- Contact css file -->
     <link rel="stylesheet" href="styles/contact.css">
+    <!-- Mobile css file -->
+    <link rel="stylesheet" href="styles/mobile.css">
 
     <!-- Balustrady i poręcze html file -->
     <link rel="stylesheet" href="balustrady.html">
@@ -83,7 +85,7 @@
     <!-- Main-banner section -->
 
     <section class="main-banner">
-        <div class="main-banner__container-first">
+        <div class="main-banner__container">
             <h3 class="main-banner__motto">
                 Profesjonalna obsługa klienta <br>
                 od stworzenia <span class="main-banner__motto-P"> projektu </span><br>
@@ -99,40 +101,33 @@
 
     <!-- About-us section -->
 
-        <main class="main-container">
-            <div class="about-us__section" id="about">
+        <div class="main-container__about-us" id="about">
+            <section class="about-us">
                 <div class="about-us__section-paragraph">
-                    <p class="about-us__section-header">
-                        <p class="about-us__header-first-part">
-                            <span class="article-headerM"> mała </span> firma
-                            <span class="article-headerO"> ogromne </span> możliwości.
-                        </p>
+                    <p class="about-us__article-header">
+                        <span class="article-headerM"> mała </span> firma
+                        <span class="article-headerO"> ogromne </span> możliwości.
                     </p>
-                    <p class="about-us__section-article1">
+                    <p class="about-us__section-article">
                         Jesteśmy niewielką dwupokoleniową rodzinną firmą, prowadzoną niezmiennie od&nbsp;1997 roku w miejscowości Żychlin, tuż obok Konina.
                         Wieloletnie doświadczenie przekłada się na terminowość, precyzję i kusznt wykonywanych przez nas zamówinień, a przy tym zachowując walory estetyczne.
                     </p>
-                    <p class="about-us__section-article2">
+                    <p class="about-us__section-article">
                         Z pewnością naszym posiadanym potężnym atutem jest perfekcyjnie opanowana technologia obróbki metalu, która umożliwia realizację nawet najtrudniejszych projektów.
                     </p>
                 </div>
-                <div class="about-us__section-line">
-                    <hr class="about-us__vertical-line" />
-                </div>
-                <div class="about-us__section-images">
-                    <div class="about-us__section-picture1">
-                        <img src="pictures/about-us-picture.jpg" class="about-us__picture" alt="schody">    
-                    </div>
-                </div>
-            </div>
-            <div class="vertical-line__between1"> <hr class="vertical-line__between-style1" /> </div>
-        </main>
+                <hr class="vertical-line__between-content" />
+                <img src="pictures/about-us-picture.jpg" class="about-us__picture" alt="schody">  
+            </section>  
+        </div>
+
+        <hr class="vertical-line__between" />
 
         <section class="image-between__about-offer">
             <div class="image-between__about-offer-link"> </div>
         </section>
 
-        <div class="vertical-line__between2"> <hr class="vertical-line__between-style2" /> </div>
+        <hr class="vertical-line__between" />
 
         <!-- Offer section -->
         <section class="offer-container" id="offer">
@@ -145,34 +140,43 @@
                         Stal nierdzewna to materiał odporny na&nbsp;warunki atmosferyczne i chemiczne.
                 </p>
             </div>
-            <div class="offer-section__services">
-                <div class="offer-section__grid-first">
-                        <div class="offer-section__first-item-overlay">
+                <ul class="offer-section__services-list">
+                    <li class="offer-section__list-item">
+                        <div class="offer-section__first-item-overlay"> 
                             <p class="offer-section__picture-text"> balustrady </p>
                         </div>
-                         <div class="offer-section__second-item-overlay">
+                    </li>
+                    <li class="offer-section__list-item">
+                        <div class="offer-section__second-item-overlay">
                             <p class="offer-section__picture-text"> podjazdy </p>
-                         </div> 
+                         </div>
+                    </li>
+                    <li class="offer-section__list-item">
                         <div class="offer-section__third-item-overlay">
                             <p class="offer-section__picture-text"> ogrodzenia </p>
-                        </div>
-                        <div class="offer-section__fourth-item-overlay">
+                         </div>
+                    </li>
+                    <li class="offer-section__list-item">
+                        <div class="offer-section__fourth-item-overlay"> 
                             <p class="offer-section__picture-text"> konstrukcje schodów </p>
                         </div>
-                </div>
-                <div class="offer-section__grid-second">
-                    <div class="offer-section__fifth-item-overlay">
-                        <p class="offer-section__picture-text"> zadaszenia </p>
-                    </div>
-                     <div class="offer-section__sixth-item-overlay">
-                        <p class="offer-section__picture-text"> meble </p>
-                     </div> 
-                    <div class="offer-section__seventh-item-overlay">
-                        <p class="offer-section__picture-text"> projekty indywidualne</p>
-                    </div>
-            </div>
-
-            </div>
+                    </li>
+                    <li class="offer-section__list-item">
+                        <div class="offer-section__fifth-item-overlay"> 
+                            <p class="offer-section__picture-text"> zadaszenia </p>
+                        </div>
+                    </li>
+                    <li class="offer-section__list-item">
+                        <div class="offer-section__sixth-item-overlay"> 
+                            <p class="offer-section__picture-text"> meble </p>
+                        </div>
+                    </li>
+                    <li class="offer-section__list-item">
+                        <div class="offer-section__seventh-item-overlay"> 
+                            <p class="offer-section__picture-text"> projekty indywidualne </p>
+                        </div>
+                    </li>
+                </ul>
         </section>
 
 
@@ -184,8 +188,8 @@
                 <h3 class="realizations-header">
                         Realizacje
                 </h3>
-                <div class="realizations-list">
-                    <div class="realizations-item1">
+                <ul class="realizations-list">
+                    <li class="realizations-item1">
                         <img src="pictures/realbal.jpg" class="realizations-item__image1" alt="balustrady" />
                         <div class="realizations-item__info">
                             <p class="realizations-item__title"> Balustrady poręcze </p>
@@ -195,8 +199,8 @@
                                 </button>
                             </a>
                         </div>
-                    </div>
-                    <div class="realizations-item1">
+                    </li>
+                    <li class="realizations-item1">
                         <img src="pictures/realogrodzenie.jpg" class="realizations-item__image1" alt="ogrodzenie" />
                         <div class="realizations-item__info">
                             <p class="realizations-item__title"> Bramy ogrodzenia </p>
@@ -206,8 +210,8 @@
                                 </button>
                             </a>
                         </div>
-                    </div>
-                    <div class="realizations-item1">
+                    </li>
+                    <li class="realizations-item1">
                         <img src="pictures/realschody.jpg" class="realizations-item__image1" alt="schody" />
                         <div class="realizations-item__info">
                             <p class="realizations-item__title"> Konstrukcje schodów </p>
@@ -217,8 +221,8 @@
                                 </button>
                             </a>
                         </div>
-                    </div>
-                    <div class="realizations-item1">
+                    </li>
+                    <li class="realizations-item1">
                         <img src="pictures/realinne.jpg" class="realizations-item__image1" alt="lustra" />
                         <div class="realizations-item__info">
                             <p class="realizations-item__title"> Indywidualne realizacje </p>
@@ -228,8 +232,8 @@
                                 </button>
                             </a>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>  
 
         </section>

@@ -1,6 +1,6 @@
-.main-banner{
-    width: 99vw;
-    min-height: 100vh;
+.main-banner
+{
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,10 +20,10 @@
       background-size: cover;
       background-position: center;
       z-index: -3;
-  
 }
   
-.main-banner::after{
+.main-banner::after
+{
       position: absolute;
       content: "";
       left: 0;
@@ -36,32 +36,6 @@
       background-size: cover;
       background-position: center;
       z-index: -2;
-    }
-
-@media(max-width: 767px)
-{
-    .main-banner
-    {
-    width: 100vw;
-    height: 92vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    }
-}
-
-@media(max-width:1199px)
-{
-    .main-banner
-    {
-    width: 99vw;
-    min-height: 92vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    }
 }
 
 .main-banner__motto
@@ -73,22 +47,6 @@
     text-align: center;
     padding: 5px;
     letter-spacing: 1px;
-}
-
-@media(max-width: 767px)
-{
-    .main-banner__motto
-    {
-        font-size: 1.5em;
-    }
-}
-
-@media(max-width:1199px)
-{
-    .main-banner__motto
-    {
-        font-size: 30px;
-    }
 }
 
 .main-banner__motto-P
@@ -105,7 +63,7 @@
     border-radius: 3%;
 }
 
-.main-banner__container-first
+.main-banner__container
 {
     text-align: center;
 }
@@ -130,22 +88,6 @@
     border-radius: 30px;
     transition: 0.5s;
     transition-timing-function: ease;
-}
-
-@media(max-width:767px)
-{
-    .main-banner__button
-    {
-        font-size: 16px;
-    }
-}
-
-@media(max-width:1199px)
-{
-    .main-banner__button
-    {
-        font-size: 18px;
-    }
 }
 
 .main-banner__button:hover

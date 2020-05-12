@@ -1,23 +1,8 @@
 .realizations
 {
-    height: 60vh;
     background-image: url("../pictures/backrealizations.png");
-    padding: 20px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+    padding: 20px 0;
     scroll-margin-top: 98px;
-}
-
-@media(max-width:767px)
-{
-    .realizations
-    {
-        height: 180vh;
-        display: inline-block;
-        scroll-margin-top: 70px;
-    }
 }
 
 .realizations-header
@@ -28,45 +13,20 @@
     font-size: 50px;
 }
 
-@media(max-width:1199px)
-{
-    .realizations-header
-    {
-        font-size: 30px;
-    }
-}
-
 .realizations-list
 {
+    text-align: center;
+    list-style: none;
     display: grid;
-    grid-template-columns: 20vw 20vw 20vw 20vw;
-    justify-content: center;
-    column-gap: 3vw;
-}
-
-@media(max-width:767px)
-{
-    .realizations-list
-    {
-        display: inline-block;
-    }
+    grid-gap: 8px;
+    grid-template-columns: repeat(auto-fill,minmax(40vh, 1fr));
 }
 
 .realizations-item1
 {
-
     width: 350px;
     height: 300px;
     position: relative;
-}
-
-@media(max-width:1199px)
-{
-    .realizations-item1
-    {
-        width: 260px;
-        height: 223px;
-    }
 }
 
 .realizations-item__image1
@@ -76,15 +36,6 @@
     border-radius: 5%;
     width: 350px;
     height: 300px;
-}
-
-@media(max-width:1199px)
-{
-    .realizations-item__image1
-    {
-        width: 260px;
-        height: 223px;
-    }
 }
 
 .realizations-item__info
@@ -117,15 +68,6 @@
     transform: translateX(-2em);
 }
 
-@media(max-width:1199px)
-{
-    .realizations-item__title,
-    .realizations-item__button
-    {
-        transform: translateX(-1em);
-    }
-}
-
 .realizations-item1:hover .realizations-item__title,
 .realizations-item1:hover .realizations-item__button
 {
@@ -145,14 +87,6 @@
     letter-spacing: 1.1px;
 }
 
-@media(max-width:1199px)
-{
-    .realizations-item__title
-    {
-        font-size: 26px;
-    }
-}
-
 .realizations-item__button
 {
     font-size: 1.5em;
@@ -168,17 +102,12 @@
     border-radius: 5%;
 }
 
-@media(max-width:1199px)
-{
-    .realizations-item__button
-    {
-        font-size: 1.3em;
-    }
-}
-
 .realizations-item__button:hover
 {
     opacity: 1;
     background-color: rgb(255, 128, 0);
     cursor: pointer;
 }
+
+
+

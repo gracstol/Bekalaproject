@@ -2,26 +2,11 @@
 
 .realizations
 {
-    height: 140vh;
     background-image: url("../pictures/backrealizations.png");
     padding: 20px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     margin: auto;
-    scroll-margin-top: 96px;
+    scroll-margin-top: 98px;
 }
-
-@media(max-width:767px)
-{
-    .realizations
-    {
-        height: 500vh;
-        display: inline-block;
-        scroll-margin-top: 68px;
-    }
-}
-
 
 .realizations-header
 {
@@ -33,18 +18,12 @@
 
 .realizations-list
 {
+    text-align: center;
+    list-style: none;
     display: grid;
-    grid-template-columns: 20vw 20vw 20vw 20vw;
-    justify-content: center;
-    column-gap: 3vw;
-}
-
-@media(max-width:767px)
-{
-    .realizations-list
-    {
-        display: inline-block;
-    }
+    grid-gap: 8px;
+    grid-template-columns: repeat(auto-fill,minmax(40vh,1fr));
+    margin: 1.5em;
 }
 
 .realizations-item1
@@ -139,12 +118,13 @@
 
 .realizations-services__header
 {   
+    text-align: center;
     font-size: 50px;
 }
 
 .realizations-services
 {
-    padding: px;
+    text-align: center;
 }
 
 .realizations-services__image

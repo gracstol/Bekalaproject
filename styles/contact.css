@@ -1,6 +1,5 @@
 .footer
 {
-    height: 50vh;
     display: flex;
     margin: 40px;
 }
@@ -23,41 +22,15 @@
     text-align: center;
 }
 
-@media(max-width:767px)
-{
-    .footer-container
-    {
-        margin: auto;
-        justify-content: center;
-        text-align: center;
-    }
-}
-
 .footer-header
 {
     font-size: 38px;
-}
-
-@media(max-width:767px)
-{
-    .footer-header
-    {
-        font-size: 30px;
-    }
 }
 
 .footer-information
 {
     font-size: 22px;
  
-}
-
-@media(max-width:767px)
-{
-    .footer-information
-    {
-        font-size: 18px;
-    }
 }
 
 .map
@@ -73,14 +46,6 @@
     border: 2px solid rgb(223, 108, 32);
     height: 40vh;
     width: 50vw;
-}
-
-@media(max-width:767px)
-{
-    .map1
-    {
-        width: 99vw;
-    }
 }
 
 .footer-finish

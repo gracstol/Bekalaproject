@@ -1,14 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
 <head>
     
     <title> Bekała - wyroby ze stali </title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Blablabla" />
-    <meta name="keywords" content="blablablabla" />           
+    <meta name="description" content="Rodzinna firma wyrabiająca wszelkiego rodzaju produkty ze stali nierdzewnej o najwyższej jakości." />
+    <meta name="keywords" content="stal nierdziewna, balustrady, poręcze, konstrukcje, schody, ogrodzenia, bramy, płoty, zadasze nia, meble" />
 
     <!-- Normalize file -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
     integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=PT+Mono&family=Roboto+Slab&display=swap" rel="stylesheet">
 
     <!-- Global css file -->
     <link rel="stylesheet" href="styles/global.css">
@@ -24,17 +29,19 @@
     <link rel="stylesheet" href="styles/realizations.css"> -->
     <!-- Contact css file -->
     <link rel="stylesheet" href="styles/contact.css">
-     <!-- Portfolio css file -->
-     <link rel="stylesheet" href="styles/portfolio.css">
+    <!-- Portfolio css file -->
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <!-- Mobile css file -->
+    <link rel="stylesheet" href="styles/mobile.css">
 
     <!-- Balustrady i poręcze html file -->
     <link rel="stylesheet" href="balustrady.html">
     <!-- Bramy i ogrodzenia html file -->
-    <link rel="stylesheet" href="balustrady.html">
+    <link rel="stylesheet" href="bramy-ogrodzenia.html">
     <!-- Konstrukcje schodów html file -->
-    <link rel="stylesheet" href="balustrady.html">
-    <!-- Indywidualne realizacje html file -->
-    <link rel="stylesheet" href="balustrady.html">
+    <link rel="stylesheet" href="konstrukcje-schodow.html"> 
+    <!-- Indywidualne projekty html file -->
+    <link rel="stylesheet" href="ind-realizacje.html">
     
 </head>
 <body>
@@ -68,7 +75,7 @@
                 </li>
             </ul>
             <div class="main-navigation__logo">
-                 <a href="index.html" class="main-navigation__logo-link">
+                 <a href="#" class="main-navigation__logo-link">
                     <img src="pictures/newlogo.png" alt="logo" class="main-navigation__logo-image">
                 </a>
             </div>
@@ -80,7 +87,7 @@
     <!-- Main-banner section -->
 
     <section class="main-banner">
-        <div class="main-banner__container-first">
+        <div class="main-banner__container">
             <h3 class="main-banner__motto">
                 Profesjonalna obsługa klienta <br>
                 od stworzenia <span class="main-banner__motto-P"> projektu </span><br>
@@ -96,40 +103,33 @@
 
     <!-- About-us section -->
 
-        <main class="main-container">
-            <div class="about-us__section" id="about">
+        <div class="main-container__about-us" id="about">
+            <section class="about-us">
                 <div class="about-us__section-paragraph">
-                    <p class="about-us__section-header">
-                        <p class="about-us__header-first-part">
-                            <span class="article-headerM"> mała </span> firma
-                            <span class="article-headerO"> ogromne </span> możliwości.
-                        </p>
+                    <p class="about-us__article-header">
+                        <span class="article-headerM"> mała </span> firma
+                        <span class="article-headerO"> ogromne </span> możliwości.
                     </p>
-                    <p class="about-us__section-article1">
-                        Jesteśmy niewielką dwupokoleniową rodzinną firmą, prowadzoną niezmiennie od 1997 roku w miejscowości Żychlin, tuż obok Konina.
+                    <p class="about-us__section-article">
+                        Jesteśmy niewielką dwupokoleniową rodzinną firmą, prowadzoną niezmiennie od&nbsp;1997 roku w miejscowości Żychlin, tuż obok Konina.
                         Wieloletnie doświadczenie przekłada się na terminowość, precyzję i kusznt wykonywanych przez nas zamówinień, a przy tym zachowując walory estetyczne.
                     </p>
-                    <p class="about-us__section-article2">
+                    <p class="about-us__section-article">
                         Z pewnością naszym posiadanym potężnym atutem jest perfekcyjnie opanowana technologia obróbki metalu, która umożliwia realizację nawet najtrudniejszych projektów.
                     </p>
                 </div>
-                <div class="about-us__section-line">
-                    <hr class="about-us__vertical-line" />
-                </div>
-                <div class="about-us__section-images">
-                    <div class="about-us__section-picture1">
-                        <img src="pictures/about-us-picture.jpg" class="about-us__picture" alt="schody">    
-                    </div>
-                </div>
-            </div>
-            <div class="vertical-line__between1"> <hr class="vertical-line__between-style1" /> </div>
-        </main>
+                <hr class="vertical-line__between-content" />
+                <img src="pictures/about-us-picture.jpg" class="about-us__picture" alt="schody">  
+            </section>  
+        </div>
+
+        <hr class="vertical-line__between" />
 
         <section class="image-between__about-offer">
             <div class="image-between__about-offer-link"> </div>
         </section>
 
-        <div class="vertical-line__between2"> <hr class="vertical-line__between-style2" /> </div>
+        <hr class="vertical-line__between" />
 
         <!-- Offer section -->
         <section class="offer-container" id="offer">
@@ -139,37 +139,46 @@
                     </h3>
                     <p class="offer-section__sentence">
                         Wykonane wyroby świetnie komponuja się z drewnem, szkłem i kamieniem. 
-                        Stal nierdzewna to materiał odporny na warunki atmosferyczne i chemiczne.
+                        Stal nierdzewna to materiał odporny na&nbsp;warunki atmosferyczne i chemiczne.
                 </p>
             </div>
-            <div class="offer-section__services">
-                <div class="offer-section__grid-first">
-                        <div class="offer-section__first-item-overlay">
+                <ul class="offer-section__services-list">
+                    <li class="offer-section__list-item">
+                        <div class="offer-section__first-item-overlay"> 
                             <p class="offer-section__picture-text"> balustrady </p>
                         </div>
-                         <div class="offer-section__second-item-overlay">
+                    </li>
+                    <li class="offer-section__list-item">
+                        <div class="offer-section__second-item-overlay">
                             <p class="offer-section__picture-text"> podjazdy </p>
-                         </div> 
+                         </div>
+                    </li>
+                    <li class="offer-section__list-item">
                         <div class="offer-section__third-item-overlay">
                             <p class="offer-section__picture-text"> ogrodzenia </p>
-                        </div>
-                        <div class="offer-section__fourth-item-overlay">
+                         </div>
+                    </li>
+                    <li class="offer-section__list-item">
+                        <div class="offer-section__fourth-item-overlay"> 
                             <p class="offer-section__picture-text"> konstrukcje schodów </p>
                         </div>
-                </div>
-                <div class="offer-section__grid-second">
-                    <div class="offer-section__fifth-item-overlay">
-                        <p class="offer-section__picture-text"> zadaszenia </p>
-                    </div>
-                     <div class="offer-section__sixth-item-overlay">
-                        <p class="offer-section__picture-text"> meble </p>
-                     </div> 
-                    <div class="offer-section__seventh-item-overlay">
-                        <p class="offer-section__picture-text"> projekty indywidualne</p>
-                    </div>
-            </div>
-
-            </div>
+                    </li>
+                    <li class="offer-section__list-item">
+                        <div class="offer-section__fifth-item-overlay"> 
+                            <p class="offer-section__picture-text"> zadaszenia </p>
+                        </div>
+                    </li>
+                    <li class="offer-section__list-item">
+                        <div class="offer-section__sixth-item-overlay"> 
+                            <p class="offer-section__picture-text"> meble </p>
+                        </div>
+                    </li>
+                    <li class="offer-section__list-item">
+                        <div class="offer-section__seventh-item-overlay"> 
+                            <p class="offer-section__picture-text"> projekty indywidualne </p>
+                        </div>
+                    </li>
+                </ul>
         </section>
 
 
@@ -196,11 +205,11 @@
                     <img src="portfolio-images/pic12.jpg" class="realizations-services__image" alt="image">
                 </div>
                 <h3 class="realizations-header">
-                        Inne nasze projekty
+                        Realizacje
                 </h3>
-                <div class="realizations-list">
-                    <div class="realizations-item1">
-                        <img src="pictures/realbal.jpg" class="realizations-item__image1" />
+                <ul class="realizations-list">
+                    <li class="realizations-item1">
+                        <img src="pictures/realbal.jpg" class="realizations-item__image1" alt="balustrady" />
                         <div class="realizations-item__info">
                             <p class="realizations-item__title"> Balustrady poręcze </p>
                             <a class="realizations-item__link" href="balustrady.html#realizations">
@@ -209,9 +218,9 @@
                                 </button>
                             </a>
                         </div>
-                    </div>
-                    <div class="realizations-item1">
-                        <img src="pictures/realogrodzenie.jpg" class="realizations-item__image1" />
+                    </li>
+                    <li class="realizations-item1">
+                        <img src="pictures/realogrodzenie.jpg" class="realizations-item__image1" alt="ogrodzenie" />
                         <div class="realizations-item__info">
                             <p class="realizations-item__title"> Bramy ogrodzenia </p>
                             <a class="realizations-item__link" href="bramy-ogrodzenia.html#realizations">
@@ -220,9 +229,9 @@
                                 </button>
                             </a>
                         </div>
-                    </div>
-                    <div class="realizations-item1">
-                        <img src="pictures/realschody.jpg" class="realizations-item__image1" />
+                    </li>
+                    <li class="realizations-item1">
+                        <img src="pictures/realschody.jpg" class="realizations-item__image1" alt="schody" />
                         <div class="realizations-item__info">
                             <p class="realizations-item__title"> Konstrukcje schodów </p>
                             <a class="realizations-item__link" href="konstrukcje-schodow.html#realizations">
@@ -231,9 +240,9 @@
                                 </button>
                             </a>
                         </div>
-                    </div>
-                    <div class="realizations-item1">
-                        <img src="pictures/realinne.jpg" class="realizations-item__image1" />
+                    </li>
+                    <li class="realizations-item1">
+                        <img src="pictures/realinne.jpg" class="realizations-item__image1" alt="lustra" />
                         <div class="realizations-item__info">
                             <p class="realizations-item__title"> Indywidualne realizacje </p>
                             <a class="realizations-item__link" href="ind-realizacje.html#realizations">
@@ -242,8 +251,8 @@
                                 </button>
                             </a>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>  
 
         </section>
@@ -260,17 +269,17 @@
                 8:00- 17:00 <br>
                 <strong> Biuro:</strong><br>
                 <!-- Icons made by https://www.flaticon.com/authors/creaticca-creative-agency Creaticca Creative Agency from https://www.flaticon.com/ -->
-                <a href="tel: 063 244 20 01" class="contact-phone"> <img src="pictures/phone.svg" class="contact-phone__icon" alt="telefon"> 063 244 20 01 </a> <br>
-                <a href="tel: 607 842 631" class="contact-phone"> <img src="pictures/phone.svg" class="contact-phone__icon" alt="telefon"> 607 842 631 </a> <br>
+                <a href="tel: 063 244 20 01" class="contact-phone"> <img src="pictures/phone.svg" class="contact-phone__icon" alt="telefon"> 063-244-20-01 </a> <br>
+                <a href="tel: 607 842 631" class="contact-phone"> <img src="pictures/phone.svg" class="contact-phone__icon" alt="telefon"> 607-842-631 </a> <br>
                 <strong> Produkcja:</strong><br>
                 <!-- Icons made by https://www.flaticon.com/authors/creaticca-creative-agency Creaticca Creative Agency from https://www.flaticon.com/ -->
-                <a href="tel: 888 063 997" class="contact-phone"> <img src="pictures/phone.svg" class="contact-phone__icon" alt="telefon"> 888 063 997</a> <br>
+                <a href="tel: 888 063 997" class="contact-phone"> <img src="pictures/phone.svg" class="contact-phone__icon" alt="telefon"> 888-063-997</a> <br>
                 <br>
                 <br>
                 <!-- Icons made by https://www.flaticon.com/authors/those-icons Those Icons from https://www.flaticon.com/ -->
                 <a href="mailto:biuro@bekala.pl" class="contact-mail"> <img src="pictures/mail.svg" class="contact-mail__icon" alt="mail"> biuro@bekala.pl</a> <br>
                 <!-- Icons made by https://www.flaticon.com/authors/vitaly-gorbachev Vitaly Gorbachev from https://www.flaticon.com/ -->
-                <img src="/pictures/location.svg" class="contact-placeholder__icon" alt="koperta"> 
+                <img src="pictures/location.svg" class="contact-placeholder__icon" alt="koperta"> 
                 62-571 Żychlin, <br>
                 Leśna 32a <br>
                 <!-- Icons made by https://www.flaticon.com/authors/freepik Freepik from https://www.flaticon.com/ -->

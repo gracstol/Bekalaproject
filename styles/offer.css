@@ -1,93 +1,19 @@
 .offer-container
 {
-    height: 54vh;
     margin-bottom: 20px;
-    scroll-margin-top: 162px;
-}
-
-@media(max-width:767px)
-{
-  .offer-container
-  {
-    height: 165vh;
-    font-size: 20px;
-    scroll-margin-top: 114px;
-  }
+    scroll-margin-top: 150px;
 }
 
 .offer-section__sentences
 {
     text-align: center;
+    font-size: 22px;
 }
 
 .offer-section__header
 {
     font-size: 40px;
     text-transform: uppercase;
-}
-
-@media(max-width:767px)
-{
-  .offer-section__header
-  {
-    font-size: 30px;
-  }
-}
-
-@media(max-width:1199px)
-{
-  .offer-section__header
-  {
-    font-size: 34px;
-  }
-}
-
-.offer-section__sentence
-{
-    font-size: 22px;
-}
-
-@media(max-width:767px)
-{
-  .offer-section__sentence
-  {
-    font-size: 18px;
-    padding: 20px;
-  }
-}
-
-@media(max-width:1199px)
-{
-  .offer-section__sentence
-  {
-    font-size: 20px;
-  }
-}
-
-.offer-section__services
-{
-   align-items: center;
-   text-align: center;
-}
-
-/* first grid */
-
-.offer-section__grid-first
-{
-    text-align: center;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 20vw 20vw 20vw 20vw;
-    column-gap: 50px;
-    padding: 10px;
-}
-
-@media(max-width:767px)
-{
-  .offer-section__grid-first
-  {
-    display: inline-block;
-  }
 }
 
 .offer-section__first-item-overlay
@@ -104,15 +30,6 @@
     transition: all 0.5s ease-in-out;
 }
 
-@media(max-width:1199px)
-{
-    .offer-section__first-item-overlay
-    {
-      width: 260px;
-      height: 119px;
-    }
-}
-
 .offer-section__second-item-overlay
 {
     background: linear-gradient(
@@ -125,15 +42,6 @@
     border-radius: 5%;
     box-shadow: 0 0 4px 3px rgb(223, 108, 32);
     transition: all 0.5s ease-in-out;
-}
-
-@media(max-width:1199px)
-{
-    .offer-section__second-item-overlay
-    {
-      width: 260px;
-      height: 119px;
-    }
 }
 
 .offer-section__third-item-overlay
@@ -150,15 +58,6 @@
     transition: all 0.5s ease-in-out;
 }
 
-@media(max-width:1199px)
-{
-    .offer-section__third-item-overlay
-    {
-      width: 260px;
-      height: 119px;
-    }
-}
-
 .offer-section__fourth-item-overlay
 {
     background: linear-gradient(
@@ -173,15 +72,6 @@
     transition: all 0.5s ease-in-out;
   }
 
-  @media(max-width:1199px)
-{
-    .offer-section__fourth-item-overlay
-    {
-      width: 260px;
-      height: 119px;
-    }
-}
-
 .offer-section__first-item-overlay:hover,
 .offer-section__second-item-overlay:hover,
 .offer-section__third-item-overlay:hover,
@@ -190,7 +80,6 @@
     transform: scale(1.05);
     cursor: pointer;
 }
-
 
 .offer-section__first-item-overlay .offer-section__picture-text,
 .offer-section__second-item-overlay .offer-section__picture-text,
@@ -211,26 +100,6 @@
     transform: translate(-50%, -50%);
 }
 
-/* Second grid services */
-
-.offer-section__grid-second
-{
-    text-align: center;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 20vw 20vw 20vw;
-    column-gap: 50px;
-    padding: 10px;
-}
-
-@media(max-width:767px)
-{
-  .offer-section__grid-second
-  {
-    display: inline-block;
-  }
-}
-
 .offer-section__fifth-item-overlay
 {
     background: linear-gradient(
@@ -243,15 +112,6 @@
     border-radius: 5%;
     box-shadow: 0 0 4px 3px rgb(223, 108, 32);
     transition: all 0.5s ease-in-out;
-}
-
-@media(max-width:1199px)
-{
-    .offer-section__fifth-item-overlay
-    {
-      width: 260px;
-      height: 119px;
-    }
 }
 
 .offer-section__sixth-item-overlay
@@ -268,15 +128,6 @@
     transition: all 0.5s ease-in-out;
 }
 
-@media(max-width:1199px)
-{
-    .offer-section__sixth-item-overlay
-    {
-      width: 260px;
-      height: 119px;
-    }
-}
-
 .offer-section__seventh-item-overlay
 {
     background: linear-gradient(
@@ -291,18 +142,18 @@
     transition: all 0.5s ease-in-out;
 }
 
-@media(max-width:1199px)
-{
-    .offer-section__seventh-item-overlay
-    {
-      width: 260px;
-      height: 119px;
-    }
-}
-
 .offer-section__fifth-item-overlay:hover,
 .offer-section__sixth-item-overlay:hover,
 .offer-section__seventh-item-overlay:hover
 {
     transform: scale(1.05);
+}
+
+.offer-section__services-list
+{
+  list-style: none;
+  display: grid;
+  grid-gap: 12px;
+  grid-template-columns: repeat(auto-fill,minmax(40vh, 1fr));
+  margin: 1.5em;
 }

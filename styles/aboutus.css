@@ -1,45 +1,26 @@
-.main-container
+.main-container__about-us
 {
-    height: 50vh;
-    background-color: rgb(230, 230, 230);
-    background-position: center;
-    background-size: cover;
-    padding-left: 50px;
+    scroll-margin-top: 100px;;
+}
+.about-us
+{
     font-family: 'Lato', sans-serif;
-}
-
-.about-us__section
-{
-    justify-content: center;
-    text-align: center;
-    justify-items: center;
     display: flex;
-    align-content: center;
-    scroll-margin-top: 100px;
-}
-
-/* first paragraph */
-.about-us__section-paragraph
-{
-    font-size: 20px;
-    max-width: 45vw;
-    margin: 0 auto 16px auto 20px;
-    text-align: center;
     align-items: center;
 }
 
-.about-us__section-header
-{
-    font-size: 35px;
-    text-align: center;
-    color: #fff;
-    padding: 0;
-    margin: 0;
-}
+/* first paragraph */
 
-.about-us__header-first-part
+.about-us__section-paragraph
+{
+    width: 60%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.about-us__article-header
 {
     font-size: 34px;
+    text-align: center;
 }
 
 .article-headerM
@@ -55,55 +36,35 @@
     font-size: 60px;
 }
 
-/* vertical-line between content */
-.about-us__section-line
+.about-us__section-article
 {
-    margin-top: 50px;
     text-align: center;
-    justify-content: center;
-    align-content: center;
-    width: 8vw;
+    font-size: 20px;
+    line-height: 1.4;
 }
 
-.about-us__vertical-line
+.vertical-line__between-content
 {
     width: 2px;
-    height: 40vh;
+    height: 45vh;
     background-color: rgb(223, 108, 32);
+    margin: 30px auto;
 }
-
 /* second content */
-.about-us__section-images
-{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
 
 .about-us__picture
 {
     box-shadow: 0 0 7px 7px rgb(223, 108, 32);
-    width: 500px;
-    height: 214px;
-}
-
-.vertical-line__between1,
-.vertical-line__between2
-{ 
-    justify-content: center;
-    text-align: center;
     margin: auto;
+    width: 30vw;
+    height: 20vh;
 }
 
-.vertical-line__between-style1,
-.vertical-line__between-style2
+.vertical-line__between
 {
     width: 75vw;
-    text-align: center;
     height: 2px;
     background-color: rgb(223, 108, 32);
-    margin: 0 auto 0 auto;
 }
 
 /* Image between about-us and offer sections */
@@ -116,89 +77,4 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin-bottom: 20px;
-}
-
-/* Media section */
-
-@media(max-width:767px)
-{
-    .main-container
-    {
-        height: 120vh;
-    }
-
-    .about-us__section-paragraph
-    {
-        margin: auto;
-    }
-
-    .about-us__header-first-part
-    {
-        font-size: 26px;
-    }
-
-    .article-headerO
-    {
-        font-size: 30px;
-    }
-
-    .about-us__section-line
-    {
-        display: none;
-    }
-
-    .about-us__picture
-    {
-        display: none;
-    }
-
-    .vertical-line__between-style1
-    {
-        display: none;
-    }
-
-    .vertical-line__between-style2
-    {
-        margin-top: 10px;
-    }
-
-    .image-between__about-offer
-    {
-        display: none;
-    }
-
-    .about-us__section
-    {
-        scroll-margin-top: 72px;
-    }
-}
-
-@media(max-width:1199px)
-{
-    .about-us__section-paragraph
-    {
-        font-size: 16px;
-    }
-
-    .about-us__section-header
-    {
-        font-size: 28px;
-    }
-
-    .article-headerM
-    {
-        font-size: 14px;
-    }
-
-    .article-headerO
-    {
-        font-size: 46px;
-    }
-    
-    .about-us__picture
-    {
-        width: 350px;
-        height: 150px;
-    }
 }
