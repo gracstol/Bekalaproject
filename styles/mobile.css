@@ -17,7 +17,7 @@
 {
     .main-banner__motto
     {
-        font-size: 28px;
+        font-size: 32px;
     }
 
     .main-banner__button
@@ -83,10 +83,45 @@
 
 @media(max-width:1199px)
 {
-    .main-navigation__list-item
+    .main-navigation
     {
-        font-size: 22px;
+        width: 100vw;
     }
+    .main-navigation__mobile-button
+    {
+        display: unset;
+        background: none;
+        border: none;
+        padding: 0;
+    }
+
+    .main-navigation__mobile-button-image
+    {
+        width: 30px;
+    }
+
+    .main-navigation__list
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 70%;
+        background: #222;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-50%);
+    }   
+
+    .main-navigation__list--open
+    {
+       opacity: 0.9;
+       pointer-events: unset;
+       transform: unset;
+    }   
 
     .main-navigation__list-link
     {
@@ -123,6 +158,22 @@
     }
 }
 
+@media(max-width:1199px)
+{
+    .about-us__section-paragraph
+    {
+        width: 100%;
+    }
+    .about-us__picture
+    {
+        display: none;
+    }
+
+    .vertical-line__between-content
+    {
+        display: none;
+    }
+}
 
 
 /* Picture between about-us and offer section */
@@ -153,11 +204,32 @@
     }
 }
 
+@media(max-width:1199px)
+{
+    .offer-container
+    {
+        scroll-margin-top: 20px;
+    }
+
+    .offer-section__services-list
+    {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(40vh, 1fr));
+    }
+}
+
 /* Realizations section */
 
 @media(max-width:767px)
 {
-   
+    .realizations-list
+    {
+        list-style: none;
+        display: grid;
+        grid-gap: 8px;
+        grid-template-columns: repeat(auto-fill,minmax(40vh, 1fr));
+    }
 }
 
 /* Footer section */
