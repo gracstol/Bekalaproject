@@ -28,6 +28,7 @@
     border-radius: 5%;
     box-shadow: 0 0 4px 3px rgb(223, 108, 32);
     transition: all 0.5s ease-in-out;
+    margin: 0.5em;
 }
 
 .offer-section__second-item-overlay
@@ -35,13 +36,14 @@
     background: linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-    ), url("../pictures/porecze1.jpg");
+    ), url("../pictures/servpodjazd.jpg");
     width: 350px;
     height: 150px;
     position: relative;
     border-radius: 5%;
     box-shadow: 0 0 4px 3px rgb(223, 108, 32);
     transition: all 0.5s ease-in-out;
+    margin: 0.5em;
 }
 
 .offer-section__third-item-overlay
@@ -56,6 +58,7 @@
     border-radius: 5%;
     box-shadow: 0 0 4px 3px rgb(223, 108, 32);
     transition: all 0.5s ease-in-out;
+    margin: 0.5em;
 }
 
 .offer-section__fourth-item-overlay
@@ -70,6 +73,7 @@
     border-radius: 5%;
     box-shadow: 0 0 4px 3px rgb(223, 108, 32);
     transition: all 0.5s ease-in-out;
+    margin: 0.5em;
   }
 
 .offer-section__first-item-overlay:hover,
@@ -94,7 +98,7 @@
     font-size: 30px;
     color: white;
     text-transform: uppercase;
-    margin: 0;
+    margin: auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -112,6 +116,7 @@
     border-radius: 5%;
     box-shadow: 0 0 4px 3px rgb(223, 108, 32);
     transition: all 0.5s ease-in-out;
+    margin: 0.5em;
 }
 
 .offer-section__sixth-item-overlay
@@ -126,6 +131,7 @@
     border-radius: 5%;
     box-shadow: 0 0 4px 3px rgb(223, 108, 32);
     transition: all 0.5s ease-in-out;
+    margin: 0.5em;
 }
 
 .offer-section__seventh-item-overlay
@@ -140,6 +146,7 @@
     border-radius: 5%;
     box-shadow: 0 0 4px 3px rgb(223, 108, 32);
     transition: all 0.5s ease-in-out;
+    margin: 0.5em;
 }
 
 .offer-section__fifth-item-overlay:hover,
@@ -149,11 +156,21 @@
     transform: scale(1.05);
 }
 
+.offer-section__services
+{
+  margin: 0 auto;
+}
+
 .offer-section__services-list
 {
   list-style: none;
-  display: grid;
-  grid-gap: 12px;
-  grid-template-columns: repeat(auto-fill,minmax(40vh, 1fr));
-  margin: 1.5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.offer-section__service
+{
+  margin: auto;
+}
+
