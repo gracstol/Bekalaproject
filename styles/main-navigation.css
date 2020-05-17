@@ -10,8 +10,6 @@
   font-family: 'Roboto Slab', serif;
 }
 
-
-
 .main-navigation__logo-image
 {
     width: 350px;
@@ -44,8 +42,6 @@
     margin-left: 50px;
     padding: 5px 0;
 }
-
-
 
 .main-navigation__list-link
 {
@@ -88,14 +84,7 @@
     display: none;
 }
 
-
 .main-navigation__mobile-button
-{
-    display: none;
-}
-
-
-.main-navigation__list-phones
 {
     display: none;
 }

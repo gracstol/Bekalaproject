@@ -34,6 +34,7 @@
     {
         width: 100vw;
         padding: unset;
+        background: rgba(0, 0, 0, 0.9);
     }
     .main-navigation__mobile-button
     {
