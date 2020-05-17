@@ -33,6 +33,7 @@
     .main-navigation
     {
         width: 100vw;
+        padding: unset;
     }
     .main-navigation__mobile-button
     {
@@ -44,7 +45,7 @@
 
     .main-navigation__mobile-button-image
     {
-        width: 30px;
+        width: 26px;
     }
 
     .main-navigation__list
@@ -75,7 +76,7 @@
 
     .main-navigation__logo-image
     {
-        width: 300px;
+        width: 280px;
         margin-right: 15px;
     }
 }
@@ -145,7 +146,7 @@
 {
     .main-container__about-us
     {
-        scroll-margin-top: 88px;
+        scroll-margin-top: 146px;
     }
 
     .about-us__section-paragraph
@@ -165,6 +166,11 @@
 
 @media(max-width:1199px)
 {
+    .main-container__about-us
+    {
+        scroll-margin-top: 90px;
+    }
+
     .about-us__section-paragraph
     {
         width: 100%;
@@ -184,13 +190,13 @@
 /* Picture between about-us and offer section */
 
 
-/* Offer sectoion*/
+/* Offer section*/
 
 @media(max-width:767px)
 {
     .offer-container
     {
-        scroll-margin-top: 100px;
+        scroll-margin-top: 80px;
     }
 
     .offer-section__header
@@ -216,7 +222,7 @@
 {
     .offer-container
     {
-        scroll-margin-top: 20px;
+        scroll-margin-top: 106px;
     }
 }
 
@@ -250,6 +256,14 @@
     {
         transition: 1s;
         transform: translateX(-1em);
+    }
+}
+
+@media(max-width:1199px)
+{
+    .realizations
+    {
+        scroll-margin-top: 86px;
     }
 }
 
