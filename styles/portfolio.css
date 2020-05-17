@@ -1,10 +1,9 @@
-/* Special folder for balustrady.html file  */
+/* Special folder for balustrady.html bramy-ogrodzenia.html ind-realizacje.html konstrukcje-schodow.html file  */
 
 .realizations
 {
     background-image: url("../pictures/backrealizations.png");
-    padding: 20px;
-    margin: auto;
+    padding: 20px 0;
     scroll-margin-top: 98px;
 }
 
@@ -16,22 +15,20 @@
     font-size: 50px;
 }
 
-.realizations-list
+.realizations__list
 {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
-    list-style: none;
-    display: grid;
-    grid-gap: 8px;
-    grid-template-columns: repeat(auto-fill,minmax(40vh,1fr));
-    margin: 1.5em;
+    justify-content: center;
 }
 
-.realizations-item1
+.realizations__list-item
 {
-
     width: 350px;
     height: 300px;
     position: relative;
+    margin: 0.5em;
 }
 
 .realizations-item__image1
@@ -60,28 +57,33 @@
     border-radius: 5%;
 }
 
-.realizations-item1:hover .realizations-item__info
+.realizations__list-item:hover .realizations-item__info
 {
     visibility: visible;
     opacity: 1;
 }
 
-.realizations-item__title,
+.realizations-item__title
+{
+    transition: .7s;
+    transform: translateY(-2em);
+}
+
 .realizations-item__button
 {
-    transition: 1s;
-    transform: translateX(-2em);
+    transition: .7s;
+    transform: translateY(2em);
 }
 
-.realizations-item1:hover .realizations-item__title,
-.realizations-item1:hover .realizations-item__button
+.realizations__list-item:hover .realizations-item__title,
+.realizations__list-item:hover .realizations-item__button
 {
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
-.realizations-item1:hover .realizations-item__title .realizations-item__link
+.realizations__list-item:hover .realizations-item__title .realizations-item__link
 {
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
 .realizations-item__title
@@ -111,8 +113,8 @@
 {
     opacity: 1;
     background-color: rgb(255, 128, 0);
+    cursor: pointer;
 }
-
 
 /* Portfolio section */
 
