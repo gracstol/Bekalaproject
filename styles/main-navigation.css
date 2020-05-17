@@ -83,7 +83,19 @@
     color: rgb(223, 108, 32);
 }
 
+.main-navigation__triangle-phones
+{
+    display: none;
+}
+
+
 .main-navigation__mobile-button
+{
+    display: none;
+}
+
+
+.main-navigation__list-phones
 {
     display: none;
 }
